@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+     height: 50em;
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding-top: 2em;
+     background-image: linear-gradient(rgba(185, 147, 21, 0.575), rgba(182, 31, 31, 0.219)),url(/image/new.jpeg);
+
+}  
+.header .navbar{
+    width: 90%;
+    display: flex;
+    height: 4em;
+    background-color: white;
+    margin: 0 auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+} 
+.navbar ul{
+list-style: none;
+display: flex;
+gap: 40px;
+width: 70%;
+margin-top: 25px;
+
+}
+.navbar ul il {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.navbar ul il a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar ul li a:hover {
+    color: orange;
+    text-decoration: underline;
+    transition: 1.2s;
+
+}
+.logo{
+    width: 10%;
+    margin-left: 30px;
+}
+.logoimg{
+    width: 50px;
+}
+.banner-heading{
+    text-align: center;
+    color: white;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.7em;
+    font-weight: 900;
+    margin-top: 4.5em;
+}
+.banner-heading p{
+    color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+.box1 img{
+    margin-top: 10em;
+    width: 40%;
+
+}
