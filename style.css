@@ -94,18 +94,7 @@ li a{
     background-color: rgba(0, 0, 0, 0.685);
 }
 
-.location {
-    width: 100%;
-    margin-bottom: 5px;
-    background-color: black;
-    color: aliceblue;
 
-    
-}
-.location h2{
-    background-color: black;
-    margin-top: 20px;
-}
 
 .btn a {
     display: inline-block;
