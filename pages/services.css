@@ -75,7 +75,9 @@ li a{
   text-align: center;
   padding: 40px;
   display: flex;
+  
 }
+
 .servces h2{
     text-align: center;
 }
@@ -95,4 +97,23 @@ li a{
 
 .service-box p {
   color: #666;
+}
+.about-list li {
+  position: relative;
+  padding-left: 25px;
+  margin: 10px 0;
+  font-size: larger;
+
+}
+
+.about-list li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: green;
+
+
+}
+ul li :hover{
+    cursor: pointer;
 }
