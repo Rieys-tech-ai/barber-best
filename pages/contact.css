@@ -80,3 +80,22 @@ li a{
     height: 80vh;
 
 }
+.tagline {
+  color: gold;
+  font-size: 13px;
+}
+
+.footer-bottom-center a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #ccc;
+  transition: 0.3s;
+}
+
+.footer-bottom-center a:hover {
+  color: gold;
+}
+
+.footer-bottom-right {
+  text-align: right;
+}
