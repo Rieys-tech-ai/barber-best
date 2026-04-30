@@ -4,6 +4,7 @@ body{
     margin: 0;
 }
 
+
 .banner{
     width: 100%;
     height: 80vh;
@@ -13,6 +14,7 @@ body{
     background-size: cover;
     padding-top: 5px;
     display: cover;
+    
 }
 
 
@@ -27,7 +29,7 @@ body{
     padding: 2px;
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    position: fixed;
+   
     
     
 }
@@ -37,7 +39,7 @@ body{
     color: rgb(145, 124, 124);
     margin: auto;
     display:flex;
-    position: fixed;
+    display: block;
     
 }
 .navigation img{
@@ -58,7 +60,7 @@ ul{
     float: left;
     display: flex;
     width: 80%;
-    gap: 10px;
+    gap: 15px;
     justify-content: center;
 }
 
@@ -71,7 +73,7 @@ li a{
     font-style: italic;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-    gap: 5px;
+    gap: 10px;
 }
 .text{
     width: 7%;
@@ -81,13 +83,20 @@ li a{
     margin-top: 4px;
 
 }
-.write h1{
+.write p{
     text-align: center;
-    margin-top: 20%;
     color: whitesmoke;
-    font-family: Cambria, Cochin, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Times, serif;
     font-size: larger;
     font-style: italic;
+    width: 100%;
+    margin: 0;
+
+    
+
+}
+.write{
+    position: relative;
 }
 
 .btn a {
@@ -144,21 +153,133 @@ video{
 font-family: 'Times New Roman', Times, serif;
 }
 .hours ul{
-    width:30%;
+    width:60%;
     height: 50%;
-    background-color:rgba(0, 0, 0, 0.652);
+    background-color:rgba(148, 23, 23, 0.716);
+    border-radius: 20px;
     
 
 }
-.hours ul li{
-font-family: 'Times New Roman', Times, serif;
 
-}
 .hours{
 margin-left: 35%;
+border-radius: 20px;
     
 }
 .hour h4{
     padding-top: 20px;
 
+}
+.footer{
+    width: 100%;
+    height: AUTO;
+    background-color:#2F3E46;
+    padding: 40px 0 20px 0;
+    border-top-left-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 80px;
+}
+.boxcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.quicklinks h4{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2px;
+    color: aliceblue;
+    margin-top: 0;
+    margin-bottom: 15px;
+
+}
+.quicklinks{
+    width: 25%;
+}
+.quicklinks ul{
+    list-style: none;
+    padding-left:  0;
+    text-decoration: none;
+    
+    flex-direction: column;
+    gap: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-weight: bold;
+    margin: 0;
+}
+.quicklinks  li a{
+    flex-direction: column;
+    color: aliceblue;
+}
+.address h4{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2px;
+    color: aliceblue;
+    margin-top: 0;
+    margin-bottom: 15px;
+
+}
+.address{
+    width: 25%;
+}
+.address ul{
+    list-style: none;
+    padding-left:  0;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-weight: bold;
+    margin: 0;
+}
+.socialicon{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.socialicon img{
+    width: auto;
+    height: 25px;
+    object-fit: contain;
+}
+.end{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+.footer-bottom a{
+    font-size: medium;
+    color: aliceblue;
+
+}
+.footer-bottom{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 20px 50px 0 50px;
+box-sizing: border-box;
+}
+.footer-divider{
+    margin: 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+    width: 95%;
+}
+.copyright{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+.footer-legal{
+    color: aliceblue;
 }
